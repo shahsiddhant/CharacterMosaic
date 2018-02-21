@@ -10,11 +10,12 @@ import { CharacterDetailComponent } from './character-detail/character-detail.co
 
 
 const appRoutes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: '/About' },
+  { path: '', pathMatch: 'full', redirectTo: '/Characters' },
   { path: 'About', component: AboutComponent },
   { path: 'Characters', component: CharacterSummaryComponent },
   { path: 'News', component: CharacterSummaryComponent },
-  { path: 'Competition', component: CharacterSummaryComponent }
+  { path: 'Competition', component: CharacterSummaryComponent },
+  { path: 'Characters/:id', component: CharacterDetailComponent }
 ];
 
 @NgModule({

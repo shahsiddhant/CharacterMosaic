@@ -15,8 +15,6 @@
 
 .hero-title {
   font-size: 50px;
-  /* position: absolute;
-    top: 250px; */
 }
 
 .character-container {
@@ -57,6 +55,8 @@
   color: #fff;
   background-color: #FF6444;
   border-radius: 4px;
+  border: none;
+  outline: inherit;
 }
 
 .details:hover {

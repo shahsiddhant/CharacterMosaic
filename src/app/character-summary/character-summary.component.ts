@@ -11,24 +11,24 @@ export class CharacterSummaryComponent implements OnInit {
       name: 'Shawn',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
       image: './assets/Shawn.jpg',
-      url: '/Shawn'
+      url: 'Shawn'
     },
     {
       name: 'Casie',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
       image: './assets/Casie.jpg',
-      url: '/Casie'
+      url: 'Casie'
     },
     {
       name: 'Amanda',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
       image: './assets/Amanda.jpg',
-      url: '/Amanda'
+      url: 'Amanda'
     }, {
       name: 'Nathan',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
       image: './assets/Nathan.jpg',
-      url: '/Nathan'
+      url: 'Nathan'
     }
   ]
 

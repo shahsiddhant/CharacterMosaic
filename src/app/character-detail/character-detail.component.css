@@ -1,0 +1,79 @@
+.back-button button {
+  background: none;
+  color: blue;
+  border: none;
+  outline: inherit;
+}
+
+.back-button button:hover {
+  cursor: pointer;
+}
+
+.character-details-contianer {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.title {
+  display: inline-block;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.title h2 {
+  font-size: 50px;
+  display: inline;
+  color: #FFC636;
+}
+
+.buttons {
+  float: right;
+}
+
+.buttons button {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  outline: inherit;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+.download {
+  background-color: #FF6444;
+  margin-right: 10px;
+}
+
+.download:hover {
+  background-color: #ff7559;
+}
+
+.feedback {
+  background-color: #00ADA9;
+}
+
+.feedback:hover {
+  background-color: #00c1bd;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 50px 0 130px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.description p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
