@@ -1,0 +1,40 @@
+/*
+#474143 - brown
+#FFC636 - yellow
+#00ADA9 - sea green
+#FFFFFF - white
+#FF6444 - orange
+
+*/
+
+.nav-container {
+  padding: 20px;
+}
+
+.nav-elements {
+  list-style-type: none;
+  text-align: right;
+  margin: 0 50px 0 0;
+  color: #00ADA9;
+}
+
+.nav-elements li {
+  display: inline;
+  margin: 0 30px;
+  padding: 10px 0;
+}
+
+.nav-elements li:hover {
+  cursor: pointer;
+}
+
+.title {
+  position: absolute;
+  top: 13px;
+  left: 30px;
+  font-size: 25px;
+}
+
+.active {
+  border-bottom: 4px solid #00ADA9;
+}
