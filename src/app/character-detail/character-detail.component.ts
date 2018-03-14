@@ -11,9 +11,10 @@ export class CharacterDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.route.params.subscribe( params => {
+    window.scrollTo(0, 0);
+    this.route.params.subscribe(params => {
       this.name = params.id;
-    } );
+    });
   }
 
 }
