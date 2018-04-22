@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { CharacterSummaryComponent } from './character-summary/character-summary.component';
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const appRoutes: Routes = [
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     AboutComponent,
     CharacterSummaryComponent,
     CharacterDetailComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

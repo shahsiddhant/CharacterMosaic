@@ -9,53 +9,43 @@ export class CharacterSummaryComponent implements OnInit {
   public characters = [
     {
       name: 'Edith',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
-      image: './assets/01_edith_crop.jpg',
-      url: 'Shawn'
-    },
-    {
-      name: 'Em',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
+      description: `Edith is a beautiful and independent young lady who can
+      often be introverted.`,
       image: './assets/01_Em_Crop.jpg',
-      url: 'Em'
-    },
-    {
+      url: 'Edith'
+    }, {
       name: 'Omar',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
+      description: 'Omar represents the working class from the country side across all Central/Latin America.',
       image: './assets/03_Omar_crop.jpg',
       url: 'Omar'
     }, {
       name: 'Marty',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
+      description: `Born in the year 1901, Marty came out of the womb playing along to the records of
+      Louis Armstrong.`,
       image: './assets/04_Marty_crop.jpg',
       url: 'Marty'
     }, {
       name: 'Thokmay',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
-      image: './assets/05_Thokmay_crop.jpg',
+      description: 'Thokmay, pronounced TOK-meh, meaning unobstructed, unhindered, has been raised in the monastery as an orphan.',
+      image: './assets/Thokmay.jpg',
       url: 'Thokmay'
     }, {
       name: 'Konrad',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
+      description: 'Second generation German Arab writer.',
       image: './assets/6_7_8_Konrad_crop.jpg',
       url: 'Konrad'
     }, {
       name: 'Shola',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
+      description: 'Young girl from Karonga, Malawi, who lost her arm to intruders at the age of six.',
       image: './assets/6_7_8_Shola_crop.jpg',
       url: 'Shola'
     }, {
       name: 'Yannathan',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
-      image: './assets/6_7_8_Yannathan_crop.jpg',
+      description: 'Yannathan, which means “walk about, travel or roam” is an 18 year old hunter from the 1830s.',
+      image: './assets/Yannathan.jpg',
       url: 'Yannathan'
-    }, {
-      name: 'Em',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque',
-      image: './assets/EmStraightFaceSketch.png',
-      url: 'Em'
     }
-  ]
+  ];
 
 
   constructor() { }
