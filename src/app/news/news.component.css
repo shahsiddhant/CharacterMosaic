@@ -1,0 +1,36 @@
+.hero-text {
+  width: 80%;
+  margin: 175px auto;
+}
+
+.hero-text h2 {
+  font-family: 'Abhaya Libre', serif;
+  font-size: 60px;
+  font-style: italic;
+  color: #FFC636;
+  font-weight: 100;
+}
+
+.hero-text h3 {
+  margin-top: 50px;
+  font-style: italic;
+  text-align: right;
+}
+
+.home-text {
+  width: 70%;
+  margin: 60px auto;
+}
+
+.home-text a {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #00ADA9;
+
+}
+
+.italics {
+  font-style: italic;
+  display: block;
+  margin-top: 15px;
+}

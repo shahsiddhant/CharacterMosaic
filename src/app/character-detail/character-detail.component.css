@@ -26,6 +26,11 @@
   color: #FFC636;
 }
 
+.left {
+  width: auto;
+  display: inline-block;
+}
+
 .buttons {
   float: right;
 }
@@ -76,4 +81,13 @@
 .description p {
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.section-heading {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  max-width: 100%;
 }

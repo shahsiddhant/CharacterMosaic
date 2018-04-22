@@ -9,14 +9,14 @@ import { CharacterSummaryComponent } from './character-summary/character-summary
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewsComponent } from './news/news.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'About', component: AboutComponent },
   { path: 'Characters', component: CharacterSummaryComponent },
-  { path: 'News', component: CharacterSummaryComponent },
-  { path: 'Competition', component: CharacterSummaryComponent },
+  { path: 'News', component: NewsComponent },
   { path: 'Characters/:id', component: CharacterDetailComponent }
 
 ];
@@ -29,7 +29,8 @@ const appRoutes: Routes = [
     CharacterSummaryComponent,
     CharacterDetailComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

@@ -8,16 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class CharacterSummaryComponent implements OnInit {
   public characters = [
     {
-      name: 'Edith',
-      description: `Edith is a beautiful and independent young lady who can
-      often be introverted.`,
-      image: './assets/01_Em_Crop.jpg',
-      url: 'Edith'
+      name: 'Em',
+      description: `Emerald is a young Black and White racially mixed woman growing up in the inner
+      city culture of Pittsburgh, PA.`,
+      image: './assets/Em_crop.jpg',
+      url: 'Em'
     }, {
       name: 'Omar',
       description: 'Omar represents the working class from the country side across all Central/Latin America.',
       image: './assets/03_Omar_crop.jpg',
       url: 'Omar'
+    }, {
+      name: 'Edith',
+      description: `Edith is a beautiful and independent young lady who can
+      often be introverted.`,
+      image: './assets/Edith_Crop.jpg',
+      url: 'Edith'
     }, {
       name: 'Marty',
       description: `Born in the year 1901, Marty came out of the womb playing along to the records of

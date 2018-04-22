@@ -1,30 +1,36 @@
 <div class="character-details-contianer">
   <div class="title">
-    <h2>{{name}}</h2>
+    <div class="left">
+      <h2>{{name}}</h2>
+      <h3>Created by {{currentCharacter.createdBy}}</h3>
+    </div>
     <div class="buttons">
       <button class="download">Download</button>
       <button class="feedback">Feedback</button>
     </div>
   </div>
 
-  <div class="image-container">
-    <!-- <img src="./assets/Nathan-detail.jpg" alt=""> -->
-    <iframe src="https://player.vimeo.com/video/29094991?color=ff9933&byline=0&portrait=0" width="900" height="600" frameborder="0" webkitallowfullscreen
-      mozallowfullscreen allowfullscreen></iframe>
+  <!-- <div class="image-container">
+    <img src="./assets/Nathan-detail.jpg" alt="">
+  </div> -->
+
+  <div class="description" *ngIf="currentCharacter.description.length>0">
+    <h1 class="section-heading">Description</h1>
+    <p *ngFor="let detail of currentCharacter.description">{{detail}}</p>
   </div>
 
-  <div class="description">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod euismod massa, ut sodales risus tristique sit amet. Fusce tincidunt mi
-      quis pulvinar consequat. Nulla commodo enim vitae tortor porta semper. Vivamus sed libero tortor. Curabitur tempor, nunc at commodo porta,
-      libero velit convallis purus, vel convallis mauris ex ac felis.</p>
-    <p>Praesent eros tortor, rhoncus eget venenatis ac, placerat vel felis. Praesent justo magna, sagittis ac iaculis non, lacinia non justo. Duis
-      commodo elit nec semper pulvinar. Aenean in augue vel purus convallis maximus</p>
-    <p>
-      Aenean vulputate pellentesque ligula, sit amet tincidunt lacus pharetra sed. Ut libero justo, rhoncus id mauris sollicitudin, maximus sollicitudin
-      nisi. Donec eget turpis neque. Suspendisse vitae est et est mattis dictum. Vestibulum aliquet id nunc eu fringilla. Integer sit amet pellentesque
-      ipsum.
-    </p>
+  <div class="sketches" *ngIf="currentCharacter.sketches.length>0">
+    <h1 class="section-heading">Sketches</h1>
+    <div *ngFor="let img of currentCharacter.sketches" class="image-container">
+      <img [src]="img">
+    </div>
+  </div>
+
+  <div class="references" *ngIf="currentCharacter.references.length>0">
+    <h1 class="section-heading">References</h1>
+    <div *ngFor="let img of currentCharacter.references" class="image-container">
+      <img [src]="img">
+    </div>
   </div>
 
   <div class="back-button">
