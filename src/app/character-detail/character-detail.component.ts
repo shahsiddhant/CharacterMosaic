@@ -30,7 +30,6 @@ export class CharacterDetailComponent implements OnInit {
       and an active reader. She is always there for her friends,
       and is able to empathize with them. And, although she can
       be very quiet, she secretly has a very pretty singing voice.`],
-      references: [`./assets/edith/ref_01.png`],
       sketches: [`./assets/edith/Edith_01.jpg`]
     },
     {
@@ -42,7 +41,6 @@ export class CharacterDetailComponent implements OnInit {
       and committed to his land. Agriculture has been the root of the Latin American economy
       since the 1600's and still is for many countries today. Men like Omar, have devoted their lives
       to the land in order to help their country and their families get ahead.`],
-      references: [`./assets/omar/ref_01.jpg`],
       sketches: [`./assets/omar/omar_01.jpg`, `./assets/omar/omar_02.jpg`]
     },
     {
@@ -62,7 +60,6 @@ export class CharacterDetailComponent implements OnInit {
       would paint large and abstract. When she found the words but it felt as if no one were
       listening or able to understand, she would sing with what felt like her only companion:
       her acoustic guitar.`],
-      references: [`./assets/em/ref_01.png`],
       sketches: [
         `./assets/em/Em_01.png`,
         `./assets/em/Em_02.png`,
@@ -82,10 +79,6 @@ export class CharacterDetailComponent implements OnInit {
       he prefers to let his melodic solos and harmonic choruses speak for him. He is generally
       known to be quiet, kind, and bashful. He spends his days practicing hours and hours at
       a time, hoping to reach worldwide renown.`],
-      references: [
-        `./assets/marty/ref_01.png`,
-        `./assets/marty/ref_02.png`
-      ],
       sketches: [
         `./assets/marty/Marty_01.jpg`,
         `./assets/marty/Marty_02.jpg`,
@@ -108,7 +101,6 @@ export class CharacterDetailComponent implements OnInit {
       asked will say it is good. He hasn’t really left more than his village and longs to see more of the
       world.`,
         `Fears: Heights, spiders,`],
-      references: [`./assets/thokmay/ref_01.png`],
       sketches: [`./assets/thokmay/thokmay_01.jpg`]
     },
     {
@@ -120,7 +112,6 @@ export class CharacterDetailComponent implements OnInit {
       channel his self-doubt and feelings of loneliness into his writing. Although he's never been particularly religious,
       he hopes to use his writing as a way to make the world paranoid and inspire others who have also been ostracized.
       Beneath his bitterness, he's very kind-hearted.`],
-      references: [`./assets/konrad/ref_01.png`],
       sketches: [
         `./assets/konrad/konrad_01.png`,
         `./assets/konrad/konrad_02.jpg`,
@@ -141,12 +132,6 @@ export class CharacterDetailComponent implements OnInit {
       albinism. She stumbled upon a beauty pageant specifically for albino people! Now,
       Shola loves to play dress up, dance around her room in her mom’s heels, and
       imagine herself as one of the beautiful albino women she saw onstage.`],
-      references: [
-        `./assets/shola/ref_01.png`,
-        `./assets/shola/ref_02.png`,
-        `./assets/shola/ref_03.png`,
-        `./assets/shola/ref_04.png`
-      ],
       sketches: [
         `./assets/shola/shola_01.png`,
         `./assets/shola/shola_02.png`,
@@ -172,7 +157,6 @@ export class CharacterDetailComponent implements OnInit {
         `A	very	important	aspect	of	the	aboriginal	life	is	religion.	Here	a	lot	of
         aborigines	belief	in	the	Dreamtime,	the	beginning	of	everything.	Their
         ancestors	created	the	whole	world	at	the	beginning	of	time and	left	sacred	places,	where	the	aborigines	celebrate	their	rituals.`],
-      references: [`./assets/yannathan/ref_01.png`],
       sketches: [
         `./assets/yannathan/yannathan_02.png`
       ]

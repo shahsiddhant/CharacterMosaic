@@ -10,10 +10,6 @@
     </div>
   </div>
 
-  <!-- <div class="image-container">
-    <img src="./assets/Nathan-detail.jpg" alt="">
-  </div> -->
-
   <div class="description" *ngIf="currentCharacter.description.length>0">
     <h1 class="section-heading">Description</h1>
     <p *ngFor="let detail of currentCharacter.description">{{detail}}</p>
@@ -22,13 +18,6 @@
   <div class="sketches" *ngIf="currentCharacter.sketches.length>0">
     <h1 class="section-heading">Sketches</h1>
     <div *ngFor="let img of currentCharacter.sketches" class="image-container">
-      <img [src]="img">
-    </div>
-  </div>
-
-  <div class="references" *ngIf="currentCharacter.references.length>0">
-    <h1 class="section-heading">References</h1>
-    <div *ngFor="let img of currentCharacter.references" class="image-container">
       <img [src]="img">
     </div>
   </div>

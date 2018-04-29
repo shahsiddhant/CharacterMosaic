@@ -1,8 +1,12 @@
 .back-button button {
-  background: none;
-  color: blue;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
   border: none;
   outline: inherit;
+  background-color: #FF6444;
 }
 
 .back-button button:hover {
