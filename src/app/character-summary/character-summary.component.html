@@ -4,18 +4,8 @@
 </div>
 
 
-<div class="character-container" *ngFor="let character of characters">
-  <div class="image-container">
-    <img [src]="character.image" alt="">
-  </div>
-  <div class="details-container">
-    <div class="name">
-      {{character.name}}
-    </div>
-    <div class="description">
-      {{character.description}}
-    </div>
-    <button class="details" [routerLink]="['/Characters', character.url]">Details</button>
-  </div>
-  <hr>
+<div class="character-container">
+  <ng-container *ngFor="let character of characters">
+    <app-character-card [characterInfo]="character"></app-character-card>
+  </ng-container>
 </div>

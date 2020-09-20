@@ -10,6 +10,7 @@ import { CharacterDetailComponent } from './character-detail/character-detail.co
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewsComponent } from './news/news.component';
+import { CharacterCardComponent } from './character-card/character-card.component';
 
 
 const appRoutes: Routes = [
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     CharacterDetailComponent,
     HomeComponent,
     FooterComponent,
-    NewsComponent
+    NewsComponent,
+    CharacterCardComponent
   ],
   imports: [
     BrowserModule,
