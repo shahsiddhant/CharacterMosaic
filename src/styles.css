@@ -2,8 +2,63 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #bf8756;
+}
+
+body {
+  background: #401818;
+}
+/* Color Theme Swatches in Hex */
+.Earthy-5-1-hex {
+  color: #c1cbd9;
+}
+.Earthy-5-2-hex {
+  color: #a6754b;
+}
+.Earthy-5-3-hex {
+  color: #bf8756;
+}
+.Earthy-5-4-hex {
+  color: #8c5b3e;
+}
+.Earthy-5-5-hex {
+  color: #401818;
+}
+
+/* Color Theme Swatches in RGBA */
+.Earthy-5-1-rgba {
+  color: rgba(192, 203, 216, 1);
+}
+.Earthy-5-2-rgba {
+  color: rgba(165, 117, 74, 1);
+}
+.Earthy-5-3-rgba {
+  color: rgba(191, 135, 86, 1);
+}
+.Earthy-5-4-rgba {
+  color: rgba(140, 90, 61, 1);
+}
+.Earthy-5-5-rgba {
+  color: rgba(63, 24, 24, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Earthy-5-1-hsla {
+  color: hsla(214, 23, 80, 1);
+}
+.Earthy-5-2-hsla {
+  color: hsla(27, 37, 47, 1);
+}
+.Earthy-5-3-hsla {
+  color: hsla(27, 45, 54, 1);
+}
+.Earthy-5-4-hsla {
+  color: hsla(21, 38, 39, 1);
+}
+.Earthy-5-5-hsla {
+  color: hsla(0, 44, 17, 1);
 }
