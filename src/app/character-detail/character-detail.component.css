@@ -6,7 +6,7 @@
   color: #fff;
   border: none;
   outline: inherit;
-  background-color: #FF6444;
+  background-color: #ff6444;
 }
 
 .back-button button:hover {
@@ -27,7 +27,7 @@
 .title h2 {
   font-size: 50px;
   display: inline;
-  color: #FFC636;
+  color: #bf8756;
 }
 
 .left {
@@ -36,7 +36,9 @@
 }
 
 .buttons {
-  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .buttons button {
@@ -54,7 +56,7 @@
 }
 
 .download {
-  background-color: #FF6444;
+  background-color: #bf8756;
   margin-right: 10px;
 }
 
@@ -63,7 +65,7 @@
 }
 
 .feedback {
-  background-color: #00ADA9;
+  background-color: #bf8756;
 }
 
 .feedback:hover {

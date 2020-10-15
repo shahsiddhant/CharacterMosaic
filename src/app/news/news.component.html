@@ -1,12 +1,13 @@
-<div class="hero-text">
-  <h2>"Newman and Reisch set out to flip the script and supply their students and other artists with more filmmaking resources that can improve work
-    quality."
-  </h2>
-  <h3>- Aaron Garland, CIAS News</h3>
-</div>
-<div class="home-text">
-  <p>
-    <a href="https://cias.rit.edu/news/576" target="_blank">RIT project addresses dearth of minority characters in 3D animations.</a>
-    <span class="italics">January 02, 2018</span>
-  </p>
-</div>
+<ng-container *ngIf="configStructure">
+  <div class="hero-text">
+    <h2>{{configStructure.heroText}}
+    </h2>
+    <h3>{{configStructure.heroTextByLine}}</h3>
+  </div>
+  <div class="home-text" *ngFor="let article of configStructure.articles">
+    <p>
+      <a [href]="article.url" target="_blank">{{article.headline}}</a>
+      <span class="italics">{{article.date}}</span>
+    </p>
+  </div>
+</ng-container>

@@ -5,5 +5,8 @@
   </span>
   <span class="name">{{characterInfo.name}}</span>
   <span class="description">{{characterInfo.description}}</span>
-  <button class="details-cta" [routerLink]="['/Characters', characterInfo.url]">Details</button>
+  <span>
+    <button class="details-cta" [routerLink]="['/Characters', characterInfo.url]">Details</button>
+    <button class="details-cta" (click)="openDownloadModal">Download</button>
+  </span>
 </div>

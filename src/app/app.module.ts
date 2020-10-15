@@ -1,25 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
-
-import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
 import { AboutComponent } from './about/about.component';
-import { CharacterSummaryComponent } from './character-summary/character-summary.component';
-import { CharacterDetailComponent } from './character-detail/character-detail.component';
-import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
-import { NewsComponent } from './news/news.component';
+import { AppComponent } from './app.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
-
+import { CharacterDetailComponent } from './character-detail/character-detail.component';
+import { CharacterSummaryComponent } from './character-summary/character-summary.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { NavComponent } from './nav/nav.component';
+import { NewsComponent } from './news/news.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'About', component: AboutComponent },
   { path: 'Characters', component: CharacterSummaryComponent },
   { path: 'News', component: NewsComponent },
-  { path: 'Characters/:id', component: CharacterDetailComponent }
-
+  { path: 'Characters/:id', component: CharacterDetailComponent },
 ];
 
 @NgModule({
@@ -32,15 +30,10 @@ const appRoutes: Routes = [
     HomeComponent,
     FooterComponent,
     NewsComponent,
-    CharacterCardComponent
+    CharacterCardComponent,
   ],
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(
-      appRoutes
-    )
-  ],
+  imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
