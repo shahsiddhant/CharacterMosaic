@@ -45,3 +45,26 @@
   align-items: center;
   margin-bottom: 10px;
 }
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .disclaimer,
+  .right-side {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .right-top-text {
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container span {
+    font-size: 20px;
+  }
+
+  .icons {
+    width: 20px;
+  }
+}

@@ -31,3 +31,25 @@
   display: block;
   margin-top: 15px;
 }
+
+@media (max-width: 600px) {
+  .hero-text {
+    margin: 30px auto;
+  }
+  .hero-text h2 {
+    font-size: 30px;
+  }
+  .hero-text h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .home-text {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .home-text a {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}

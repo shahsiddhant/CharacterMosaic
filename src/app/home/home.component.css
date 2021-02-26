@@ -25,3 +25,20 @@
   font-size: 20px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 600px) {
+  .hero-text h2 {
+    font-size: 30px;
+  }
+  .hero-text {
+    margin: 30px auto;
+  }
+  .home-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .home-text p {
+    font-size: 16px;
+  }
+}

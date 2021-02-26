@@ -9,32 +9,40 @@
 
 .nav-container {
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-elements {
-  list-style-type: none;
-  text-align: right;
-  margin: 0 50px 0 0;
-}
-
-.nav-elements li {
-  display: inline;
-  margin: 0 30px;
-  padding: 10px 0;
-  outline: none;
-}
-
-.nav-elements li:hover {
+.nav-elements-secondary span:hover,
+.nav-elements span:hover {
   cursor: pointer;
 }
 
+.nav-elements-secondary span {
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
 .title {
-  position: absolute;
-  top: 13px;
-  left: 30px;
   font-size: 30px;
 }
 
 .active {
   border-bottom: 4px solid #bf8756;
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nav-elements,
+  .nav-elements-secondary {
+    text-align: center;
+  }
+  .nav-elements-secondary {
+    margin: unset;
+  }
 }

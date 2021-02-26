@@ -54,3 +54,21 @@
   margin-bottom: 30px;
   font-size: 20px;
 }
+
+@media (max-width: 600px) {
+  .about-cmp,
+  .about-us,
+  .hero-text {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .description {
+    width: 100%;
+    margin-left: unset;
+  }
+
+  .image-container {
+    margin-bottom: 10px;
+  }
+}
