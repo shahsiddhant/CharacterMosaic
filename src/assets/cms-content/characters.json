@@ -1,0 +1,18 @@
+{
+  "characters": [
+    {
+      "name": "Em",
+      "description": "Emerald is a young Black and White racially mixed woman growing up in the innercity culture of Pittsburgh, PA.",
+      "image": "./assets/Em_crop.jpg",
+      "url": "Em",
+      "downloadUrl": "./assets/em/em_rig.ma"
+    },
+    {
+      "name": "Omar",
+      "description": "Omar represents the working class from the country side across all Central/Latin America.",
+      "image": "./assets/03_Omar_crop.jpg",
+      "url": "Omar",
+      "downloadUrl": ""
+    }
+  ]
+}

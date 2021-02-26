@@ -1,7 +1,9 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 import { CharacterCardComponent } from './character-card/character-card.component';
@@ -32,7 +34,13 @@ const appRoutes: Routes = [
     NewsComponent,
     CharacterCardComponent,
   ],
-  imports: [BrowserModule, RouterModule.forRoot(appRoutes), HttpClientModule],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(appRoutes),
+    HttpClientModule,
+    NgbModule.forRoot(),
+    ReactiveFormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

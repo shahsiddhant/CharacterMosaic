@@ -7,6 +7,44 @@
   <span class="description">{{characterInfo.description}}</span>
   <span>
     <button class="details-cta" [routerLink]="['/Characters', characterInfo.url]">Details</button>
-    <button class="details-cta" (click)="openDownloadModal">Download</button>
+    <button class="details-cta" *ngIf="characterInfo.downloadUrl" (click)="openDownloadModal(content)">Download</button>
   </span>
 </div>
+<ng-template #content let-close="close">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Download {{characterInfo.name}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="close()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+    <div>
+      <p>Please enter your information to download the character models</p>
+    </div>
+    <div class="form-group" [formGroup]='downloadForm'>
+      <span>
+        First Name *:
+      </span>
+      <span>
+        <input type="text" formControlName='firstName'>
+      </span>
+      <span>
+        Last Name *:
+      </span>
+      <span>
+        <input type="text" formControlName='lastName'>
+      </span>
+      <span>
+        Email *:
+      </span>
+      <span>
+        <input type="email" formControlName='email'>
+      </span>
+    </div>
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" [disabled]='!downloadForm.valid' (click)="close('download')">Download</button>
+  </div>
+</ng-template>

@@ -1,15 +1,14 @@
-.back-button button {
+.back-button span {
   width: 100px;
   height: 40px;
   border-radius: 4px;
   padding: 10px;
-  color: #fff;
   border: none;
   outline: inherit;
-  background-color: #ff6444;
+  cursor: pointer;
 }
 
-.back-button button:hover {
+.back-button span:hover {
   cursor: pointer;
 }
 
